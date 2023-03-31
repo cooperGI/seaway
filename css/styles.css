@@ -1,0 +1,277 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Josefin+Sans&family=Roboto+Mono:ital@1&family=Titillium+Web&display=swap');
+
+/*
+font-family: 'Changa One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1{
+	padding: 20px;
+	padding-bottom: 0;
+	color: #b0c5ca;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+legend{
+	font-size: 2em;
+	padding: 30px;
+
+	color: #b0c5ca;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.title_eco{
+	padding: 20px;
+	padding-bottom: 0;
+	color: #0f2439;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+h2{
+	
+}
+
+blockquote{
+	
+}
+
+body{
+	background-color: #ddedfa;
+}
+
+.title{
+	color: #0f2439;
+	font-size: 3.75em;
+	padding-top : 50px;
+	padding-left: 40px;
+	font-family: 'Changa One', cursive;
+}
+
+header {
+	min-height: 450px;
+	background-image: url("../images/slsHeroImage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+.hnav{
+	background-color: #0f2439;
+	margin-top: px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	
+}
+
+.hnav ul li{
+	display: inline-block;
+	font-size: 1.75em;
+}
+
+.hnav a:hover{
+	background-color: #b0c5ca;
+	color: #0f2439;
+	padding: 1.5px;
+	
+}
+
+.hnav a{
+	padding: 20px;
+	text-decoration: none;
+	color: #b0c5ca;
+	font-family: 'Roboto Mono', monospace;
+}
+
+footer{
+	padding-top: 20px;
+		min-height:300px;
+	background-image: url("../images/mountains-forest-background-texture-silhouette-of-coniferous-forest-winter-season-trees-covered-in-snow-spruce-fir-horizontal-landscape-free-vector.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+#seaway {
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #436169;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#seaway p{
+	padding: 20px;
+	font-size: 1.5em;
+	color: #b0c5ca;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.boats{
+	width: 35%;
+	border-radius: 25px;
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+	margin-right: 20px;
+}
+
+#history{
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #0f2439;
+	margin-bottom: 30px;
+}
+
+#history p{
+	padding: 20px;
+	font-size: 1.2em;
+	color: #b0c5ca;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.map{
+	width: 55%;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+
+.river{
+	width: 40%;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	margin-right: 20px;
+}
+
+#locks{
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #436169;
+	margin-bottom: 30px;
+}
+#locks ul{
+	padding: 20px;
+	font-size: 1.2em;
+	color: #b0c5ca;
+	padding-bottom: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#locks li{
+	margin-left: 20px;
+	
+}
+
+#locks p{
+	padding: 20px;
+	font-size: 1.75em;
+	color: #b0c5ca;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.lock1{
+	width: 60%;
+	border-radius: 20px;
+	margin-left: 50px;
+}
+
+.lock2{
+	width: 40%;
+	float: right;
+	border-radius: 20px;
+	margin-bottom: 60px;
+}
+
+#eco{
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #91b4b8;
+	margin-bottom: 30px;
+}
+
+#eco p{
+	padding: 20px;
+	font-size: 1.2em;
+	color: #0f2439;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.ecology{
+	width: 45%;
+	float: right;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#news{
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #0f2439;
+	margin-bottom: 30px;
+}
+
+#news label{
+	padding-left:30px;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-size: 1.5em;
+	color: #b0c5ca;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+#submit{
+	font-size: 1.25em;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #91b4b8;
+	color: #0f2439;
+	margin-left: 20px;
+
+}
+
+#reset{
+	font-size: 1.25em;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #91b4b8;
+	color: #0f2439;
+	margin: 20px;
+}
+
+footer{
+	text-align: center;
+	color: #b0c5ca;
+}
+
+h3{
+	margin-top: 150px;
+}
